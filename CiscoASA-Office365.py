@@ -1,24 +1,24 @@
 #!/usr/bin/python
 #########################################################################
-#                   *** Office365 Cisco Config *** 						#
-# Author:  Nick Stebbens                           						#
-# Date:    21/06/2017                              						#
-# Version: 1.1                                     						#
-# Dependancies: Python 3.6                         						#
-# Description:                                     						#
+#                   *** Office365 Cisco Config ***       	          	#
+# Author:  Nick Stebbens                               	          	    #
+# Date:    21/06/2017                                  	          	    #
+# Version: 1.1                                        	          	    #
+# Dependancies: Python 3.6                        	          	        #
+# Description:                                 	          	          	#
 # Assembles new Cisco ASA network objects containing Microsoft          #
 # office365 IP addresses populated using the latest XML list       	    #
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-# Copyright 2017 Nicholas Stebbens                                      # 
+# Copyright 2017 Nicholas Stebbens                             	        # 
 # This program is free software: you can redistribute it and/or modify  #
 # it under the terms of the GNU General Public License as published by  #
 # the Free Software Foundation, either version 3 of the License, or     #
-# (at your option) any later version.                                   #
-#                                                                       #
+# (at your option) any later version.                            	    #
+#                                                     	          	    #
 # This program is distributed in the hope that it will be useful,       #
 # but WITHOUT ANY WARRANTY; without even the implied warranty of        #
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         #
-# GNU General Public License for more details.                          #
+# GNU General Public License for more details.               	        #
 #########################################################################
 
 import xml.etree.ElementTree as etree
